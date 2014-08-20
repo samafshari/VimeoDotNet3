@@ -1,0 +1,6 @@
+VimeoAPI/obj/*
+UnitTestProject1/obj/*
+UnitTestProject1/bin/*
+VimeoAPI/bin/Debug/*
+bin
+obj
