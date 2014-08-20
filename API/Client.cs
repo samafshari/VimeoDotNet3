@@ -150,6 +150,16 @@ namespace Vimeo
             return json.Serialize(parameters);
         }
 
+        /// <summary>
+        /// This is your portal to Vimeo. Use it to call a method with a bunch of parameters.
+        /// Example: get your own profile by calling 
+        /// Request("/me", null, "GET")
+        /// </summary>
+        /// <param name="url">The endpoint. It should be a relative URL specifying the API method you want to call, such as "/me"</param>
+        /// <param name="parameters">Call parameters. Put null if you don't feel like it.</param>
+        /// <param name="method">HTTP method: e.g. "GET", "POST", "PUT", etc.</param>
+        /// <param name="jsonBody">true: set content type to json</param>
+        /// <returns>Deserialized JSON as Dictionary of strings to objects</returns>
         public Dictionary<string, object> Request(
             string url,
             Dictionary<string, string> parameters,
