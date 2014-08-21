@@ -123,7 +123,7 @@ namespace Vimeo
             vc.clientId = cid;
             vc.secret = secret;
             vc.AccessToken = accessToken;
-
+            vc.apiRoot = apiRoot;
             vc.User = vc.Request("/me", null, "GET");
             return vc;
         }
