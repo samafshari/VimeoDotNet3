@@ -2,6 +2,8 @@ This is the VimeoDotNet wrapper for Vimeo API 3.0.
 It allows you to authorize and get access tokens and
 send requests to Vimeo.
 
+For a full-featured uploader (and its source code), please visit http://redcorners.com.
+
 Here's a quick start guide:
 
 Step 1.
